@@ -4,7 +4,7 @@ body {
   background: #390050;
 }
 
-#particles-js { 
+#particles-js {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -12,9 +12,9 @@ body {
     top: 0;
     left: 0;
 	background-color: #390050;
-	background-image: url(""); 
-	background-repeat: no-repeat; 
-	background-size: cover; 
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -29,11 +29,11 @@ body {
 }
 
 .diagonal-section {
-	z-index: 30; 
+	z-index: 30;
 	position: relative;
 	opacity: 0.9;
-	transform: skewY(-2deg); 
-	-ms-transform: skewY(-2deg); 
+	transform: skewY(-2deg);
+	-ms-transform: skewY(-2deg);
 	-webkit-transform: skewY(-2deg);
 }
 
@@ -49,11 +49,11 @@ body {
 }
 
 .white-bg {
-	background: white; 
+	background: white;
 }
 
 .transparent-bg {
-	background: transparent; 
+	background: transparent;
 }
 
 .black-bg {
@@ -61,16 +61,16 @@ body {
 }
 
 .diagonal-section-content {
-	padding: 5em 0 5em 0; 
-	transform: skewY(2deg); 
-	-ms-transform: skewY(2deg); 
+	padding: 5em 0 5em 0;
+	transform: skewY(2deg);
+	-ms-transform: skewY(2deg);
 	-webkit-transform: skewY(2deg);
 }
 
 header, section {
 	z-index: 3;
 	position: relative;
-	overflow: hidden;	
+	overflow: hidden;
 }
 
 .dark-blue-bg {
@@ -309,7 +309,7 @@ header, section {
   .projects-section .project-text {
     padding: 3% !important;
   }
-  
+
   .project-text {
     padding: 3% !important;
   }
@@ -319,7 +319,7 @@ header, section {
     border: 2px solid #ccc;
     border-radius: 30px;
   }
-  
+
   #mainNav .navbar-toggler:hover, #mainNav .navbar-toggler:focus {
     color: #F0B036;
     border-color: #F0B036;
@@ -603,11 +603,11 @@ p {
 .table th {
   text-align: center;
   overflow-wrap: normal;
-  
+
 }
 
 .table td {
-  
+
 }
 
 .table tbody tr td {
