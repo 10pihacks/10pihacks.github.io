@@ -21,6 +21,29 @@ var saturday = [];
 var sunday = [];
 
 // track = {main, ws} where ws is workshop
+
+saturday.push(new scheduleEvent("Hacking Begins", "10:00", "main"));
+saturday.push(new scheduleEvent("Project Idea Workshop", "11:00", "12:30", "ws"));
+saturday.push(new scheduleEvent("(TBD) Beginner-Level Workshop", "14:00", "15:00", "ws"));
+saturday.push(new scheduleEvent("(TBD) Intermediate-Level Workshop", "16:00", "17:00", "ws"));
+saturday.push(new scheduleEvent("(TBD) Intermediate-Level Workshop", "18:00", "19:00", "ws"));
+saturday.push(new scheduleEvent("(TBD) Advanced-Level Workshop", "21:00", "22:00", "ws"));
+saturday.push(new scheduleEvent("Minecraft UHC Tournament", "23:00", "24:00", "ws"));
+sunday.push(new scheduleEvent("(TBD) Advanced-Level Workshop", "08:00", "09:00", "ws"));
+sunday.push(new scheduleEvent("(TBD) Guest Speaker", "10:00", "11:00", "ws"));
+sunday.push(new scheduleEvent("Estimathon", "12:00", "13:00", "ws"));
+sunday.push(new scheduleEvent("(TBD) Guest Speaker", "14:00", "15:00", "ws"));
+sunday.push(new scheduleEvent("League Of Legends 1v1 Tournament", "16:00", "17:00", "ws"));
+sunday.push(new scheduleEvent("Hacking Ends", "17:41:59", "main"));
+sunday.push(new scheduleEvent("Judging Phase I", "18:00", "19:00", "main"));
+sunday.push(new scheduleEvent("Top 12 Announced", "19:15", "main"));
+sunday.push(new scheduleEvent("Judging Phase II", "19:30", "20:30", "main"));
+sunday.push(new scheduleEvent("Closing Ceremony", "21:00", "22:00", "main"));
+
+
+
+
+/**
 saturday.push(new scheduleEvent("Check-In Opens", "10:00", "main"));
 saturday.push(new scheduleEvent("Hacking Begins", "12:00", "main"));
 saturday.push(new scheduleEvent("Opening Ceremony", "11:00", "main"));
@@ -40,6 +63,7 @@ sunday.push(new scheduleEvent("Judging Commences", "13:15", "14:30", "main"));
 sunday.push(new scheduleEvent("Closing Ceremony", "15:00", "16:00", "main"));
 sunday.push(new scheduleEvent("Venue closed", "17:00", "main"));
 // sunday.push(new scheduleEvent("No workshops today", "00:00", "17:00", "ws"));
+*/
 
 saturday.sort((a,b) => (a.startTime >= b.startTime) ? 1: -1);
 sunday.sort((a,b) => (a.startTime >= b.startTime) ? 1 : -1 );
