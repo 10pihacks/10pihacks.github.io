@@ -2,7 +2,10 @@ body {
   margin: 0;
   padding: 0;
   background: #390050;
+
 }
+
+
 
 #particles-js {
     width: 100%;
@@ -576,6 +579,12 @@ p {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+.homeintro {
+  background-image: url("./../img/logo/logosmallerhq.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 /* nav bar */
