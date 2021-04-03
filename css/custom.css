@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #17153a;
+  background: #390050;
 }
 
 #particles-js { 
@@ -478,6 +478,14 @@ p {
 	color: #64a19d !important;
 }
 
+.lightblue {
+  color: #92d4de !important;
+}
+
+.darkblue {
+  color: #44b6c6 !important;
+}
+
 .white {
 	color: #fff !important;
 }
@@ -561,7 +569,7 @@ p {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 5rem;
   padding-top: 10rem;
   background: url("");
   background-position: center;
@@ -702,4 +710,8 @@ p {
 
 #mainNav.navbar-shrink .nav-link:hover {
     color: rgba(240, 176, 54) !important;
+}
+
+.pi-char {
+  font-family: 'Cardo';
 }
