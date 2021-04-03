@@ -11,7 +11,7 @@ body {
     z-index: -10;
     top: 0;
     left: 0;
-	background-color: #17153a; 
+	background-color: #390050;
 	background-image: url(""); 
 	background-repeat: no-repeat; 
 	background-size: cover; 
@@ -395,7 +395,7 @@ header, section {
 .title-icon {
   width: 64px;
   height: 64px;
-  background: url("../img/favicon_io/10pihacksicon.png");
+  background: url("../img/favicon_io/icontransparent.png");
   background-size: 64px 64px;
 }
 

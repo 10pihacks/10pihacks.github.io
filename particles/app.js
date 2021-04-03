@@ -10,7 +10,7 @@ particlesJS('particles-js',
       }
     },
     "color": {
-      "value": "#F18A4F"
+      "value": "#44b6c6"
     },
     "shape": {
       "type": "polygon",
@@ -19,7 +19,7 @@ particlesJS('particles-js',
         "color": "#000"
       },
       "polygon": {
-        "nb_sides": 6
+        "nb_sides": 50
       },
       "image": {
         "src": "img/github.svg",
