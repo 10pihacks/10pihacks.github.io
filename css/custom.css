@@ -582,9 +582,10 @@ p {
 }
 
 .homeintro {
-  background-image: url("./../img/logo/logosmallerhq.png");
+  /* background-image: url("./../img/logo/logosmallerhq.png");
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background: #ffffff;
 }
 
 /* nav bar */
