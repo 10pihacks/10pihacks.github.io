@@ -30,9 +30,9 @@ saturday.push(new scheduleEvent("Python Flask Workshop: Hosting Dynamic Websites
 saturday.push(new scheduleEvent("Introduction to Reinforcement Learning with Python", "21:00", "22:00", "ws"));
 saturday.push(new scheduleEvent("Minecraft UHC Tournament", "23:00", "24:00", "ws"));
 sunday.push(new scheduleEvent("Chrome Extension Workshop: Enhancing Chrome with JavaScript", "08:00", "09:00", "ws"));
-sunday.push(new scheduleEvent("Guest Speaker", "10:00", "11:00", "ws"));
+sunday.push(new scheduleEvent("echoAR Project Development Workshop", "10:00", "11:00", "ws"));
 sunday.push(new scheduleEvent("Estimathon", "12:00", "13:00", "ws"));
-sunday.push(new scheduleEvent("Guest Speaker", "14:00", "15:00", "ws"));
+sunday.push(new scheduleEvent("Networking 101".italics() + " by Galicia Gordon, Founder of Leading Learners", "14:00", "15:00", "ws"));
 sunday.push(new scheduleEvent("League Of Legends 1v1 Tournament", "16:00", "17:00", "ws"));
 sunday.push(new scheduleEvent("Hacking Ends", "17:41:59", "main"));
 sunday.push(new scheduleEvent("Judging Phase I", "18:00", "19:00", "main"));
